@@ -1,5 +1,3 @@
-This example was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fluree [Create React App](https://github.com/facebook/create-react-app) template.
 
-It is linked to the @fluree/js-react-wrapper package in the parent directory for development purposes.
-
-You can run `npm install` and then `npm start` to test your package.
+To start a new Fluree React project using this template, run `npx create-react-app my-app --template fluree`. Replace my-app with whatever you want to name your project.
