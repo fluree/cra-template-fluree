@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Popover from '@material-ui/core/Popover';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import { flureeQL } from '@fluree/js-react-wrapper';
+import { flureeQL } from '@fluree/react-wrapper';
 
 const useStyles = makeStyles((theme) => ({
   typography: {

@@ -1,11 +1,11 @@
 import React from 'react'
 import logo from './logo.svg';
 import './App.css';
-import { ReactConnect, FlureeProvider, flureeQL } from '@fluree/js-react-wrapper';
+import { ReactConnect, FlureeProvider, flureeQL } from '@fluree/react-wrapper';
 import CollectionTable from './CollectionTable';
 
 
-// import '@fluree/js-react-wrapper/dist/index.css'
+// import '@fluree/react-wrapper/dist/index.css'
 const myconn = ReactConnect({
   servers: "http://localhost:8090",
   ledger: "example/ledger",

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Slider from '@material-ui/core/Slider';
 import Tooltip from '@material-ui/core/Tooltip';
-import { flureeQL } from '@fluree/js-react-wrapper'
+import { flureeQL } from '@fluree/react-wrapper'
 
 const styleObj = {
   width: 300,

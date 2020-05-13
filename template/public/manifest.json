@@ -1,6 +1,6 @@
 {
-  "short_name": "@fluree/js-react-wrapper",
-  "name": "@fluree/js-react-wrapper",
+  "short_name": "@fluree/react-wrapper",
+  "name": "@fluree/react-wrapper",
   "icons": [
     {
       "src": "favicon.ico",

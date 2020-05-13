@@ -5,7 +5,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import StarIcon from '@material-ui/icons/Star';
-import { flureeQL } from '@fluree/js-react-wrapper';
+import { flureeQL } from '@fluree/react-wrapper';
 
 var urlParams = new URLSearchParams(window.location.search);
 // var p = urlParams.get('p');
