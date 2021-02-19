@@ -2,9 +2,10 @@
   "name": "@fluree/cra-template-fluree",
   "version": "0.2.0",
   "scripts": {
-    "prettify": "prettier --write './template/src/**/*.js'",
-    "lint": "eslint './template/src/**/*.js'",
-    "test": "jest"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [
     "react",
@@ -12,6 +13,24 @@
     "template",
     "fluree"
   ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "description": "The official Fluree template for Create React App.",
   "main": "template.json",
   "repository": {
@@ -30,27 +49,18 @@
     "template.json"
   ],
   "devDependencies": {
-    "@babel/preset-env": "^7.7.6",
-    "@babel/preset-react": "^7.7.4",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "babel-eslint": "^10.0.3",
-    "babel-jest": "^24.9.0",
-    "eslint": "^6.7.2",
-    "eslint-config-react-app": "^5.1.0",
-    "eslint-plugin-flowtype": "^4.5.2",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-prettier": "^3.1.1",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0",
-    "jest": "^24.9.0",
-    "prettier": "^1.19.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "prop-types": "^15.7.2",
+    "react-scripts": "4.0.2",
+    "web-vitals": "^1.0.1"
+  },
+  "dependencies": {
     "@fluree/react-wrapper": "^0.14.0",
-    "@material-ui/core": "^4.9.10",
-    "@material-ui/icons": "^4.9.1"
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2"
   }
 }
