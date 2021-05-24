@@ -26,7 +26,9 @@ function ShowCollections(){
   } else {
   return (
       <div>
-        <img src={logo} className="App-logo" alt="logo" />
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
         <table>
           <thead>
             <tr>
